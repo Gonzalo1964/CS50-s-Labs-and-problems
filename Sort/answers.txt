@@ -1,0 +1,11 @@
+sort1 uses: bubble sort
+
+How do you know?: for rejection of the other two. Does not have the lowest time in random5000.txt and in sorted5000.txt was faster than sort3
+
+sort2 uses: merged sort
+
+How do you know?: it has the lowest time in random5000.txt
+
+sort3 uses: selection sort
+
+How do you know?: it has the largest time (biggest omega) in sorted5000.txt 036 secs

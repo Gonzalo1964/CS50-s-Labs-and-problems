@@ -1,0 +1,65 @@
+
+body
+{
+    background: darkgray;
+}
+
+h1
+{
+    font-size: 44;
+    color: green;
+    text-align: center;
+    background-color: darkgray;
+}
+
+h2
+{
+    color: darkred;
+    text-align: center;
+    background-color: azure;
+}
+
+button
+{
+    background-color: darkred;
+    border: green;
+    color: white;
+    padding:14px 40 px;
+    text-align: center;
+    font-size:24px;
+}
+
+table
+{
+    border: 4px solid black;
+    width: 20%;
+    height: 300px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: azure;
+
+}
+
+th, td
+{
+    padding: o.5rem;
+    border: 1px solid #999;
+
+}
+
+.container
+{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.jumbotron
+{
+    background-color: #477bff;
+    color: #fff;
+    margin-bottom: 2rem;
+    padding: 2rem 1rem;
+    text-align: center;
+}

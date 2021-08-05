@@ -1,0 +1,46 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Holdings
+{% endblock %}
+
+{% block main %}
+
+    <table class = "table table-bordered">
+      <thead>
+          <tr>
+              <th>name</th>
+              <th>symbol</th>
+              <th>shares</th>
+              <th>price</th>
+              <th>total</th>    
+          </tr>
+          
+      </thead>
+      <tfoot>
+          <tr>
+              <td colspan = "3"></td>
+              <td>GRAND TOTAL</td>
+              <td>{{grand_total}}</td>
+          </tr>
+      </tfoot>
+      <tbody>
+          {% for holding in holdings %}
+          <tr>
+              <td>{{holding["name"]}}</td>
+              <td>{{holding["symbol"]}}</td>
+              <td>{{holding["shares"]}}</td>
+              <td>{{holding["price"]}}</td>
+              <td>{{holding["total"]}}</td>
+          </tr>
+          {% endfor %}
+          <tr>
+              <td colspan = "3"></td>
+              <td>CASH</td>
+              <td>{{cash}}</td>
+          </tr>
+      </tbody>
+
+    </table>
+
+{% endblock %}
